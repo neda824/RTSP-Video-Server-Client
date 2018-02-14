@@ -1,0 +1,80 @@
+client IP addr: /127.0.0.1
+Client Port: 46945
+RTSP Server - Received from Client:
+OPTIONS rtsp://127.0.0.1:1052/movie.Mjpeg RTSP/1.0
+CSeq: 2
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+****Video file name: movie.MjpegServer IP address: /127.0.0.1
+Received OPTIONS request
+RTSP Server - Received from Client:
+DESCRIBE rtsp://127.0.0.1:1052/movie.Mjpeg RTSP/1.0
+CSeq: 3
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Next Line: Accept: application/sdp
+Received DESCRIBE request
+RTSP Server - Sent response to Client.
+RTSP Server - Received from Client:
+SETUP rtsp://127.0.0.1:1051/movie.Mjpeg/stream=0 RTSP/1.0
+CSeq: 4
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Setup transport line: Transport: RTP/AVP;unicast;client_port=54394-54395
+SETUP Next Line: 
+New RTSP state: READY
+RTSP Server - Received from Client:
+PLAY rtsp://127.0.0.1:1051/movie.Mjpeg RTSP/1.0
+CSeq: 5
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+SETUP Next Line: 
+RTSP Server - Sent response to Client.
+New RTSP state: PLAYING
+###### Image number:0
+Send frame #1, Frame size: 6014 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 1, TimeStamp: 100
+[RTCP] [RTCP] Version: 2, Fraction Lost: 1.874E-42, Cumulative Lost: -1, Highest Seq Num: 65537, Ssrc: 1985889591
+###### Image number:1
+Send frame #2, Frame size: 5940 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 2, TimeStamp: 200
+###### Image number:2
+Send frame #3, Frame size: 5925 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 3, TimeStamp: 300
+###### Image number:3
+Send frame #4, Frame size: 5860 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 4, TimeStamp: 400
+###### Image number:4
+Send frame #5, Frame size: 5771 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 5, TimeStamp: 500
+[RTCP] [RTCP] Version: 2, Fraction Lost: 1.874E-42, Cumulative Lost: 16777215, Highest Seq Num: 65541, Ssrc: 1985889591
+###### Image number:5
+Send frame #6, Frame size: 5689 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 6, TimeStamp: 600
+###### Image number:6
+Send frame #7, Frame size: 5489 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 7, TimeStamp: 700
+###### Image number:7
+Send frame #8, Frame size: 5313 (20000)
+[RTP-Header] Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 8, TimeStamp: 800
+RTSP Server - Received from Client:
+TEARDOWN rtsp://127.0.0.1:1051/movie.Mjpeg RTSP/1.0
+[RTCP] [RTCP] Version: 2, Fraction Lost: 1.874E-42, Cumulative Lost: 16777215, Highest Seq Num: 65544, Ssrc: 1985889591
+CSeq: 6
+###### Image number:8
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+TearDown Next Line: 
+Send frame #9, Frame size: 5219 (20000)
+[RTP-Header] RTSP Server - Sent response to Client.
+Version: 2, Padding: 0, Extension: 0, CC: 0, Marker: 0, PayloadType: 26, SequenceNumber: 9, TimeStamp: 900
+client IP addr: /127.0.0.1
+Client Port: 46947
+RTSP Server - Received from Client:
+DESCRIBE rtsp://127.0.0.1:1052/movie.Mjpeg RTSP/1.0
+CSeq: 3
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Next Line: Accept: application/sdp
+Received DESCRIBE request
+RTSP Server - Sent response to Client.
+RTSP Server - Received from Client:
+SETUP rtsp://127.0.0.1:1051/movie.Mjpeg/stream=0 RTSP/1.0
+CSeq: 4
+User-Agent line: User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Setup transport line: Transport: RTP/AVP/TCP;unicast;interleaved=0-1
+Exception caught: java.util.NoSuchElementException

@@ -1,0 +1,130 @@
+Sending request: OPTIONS rtsp://127.0.0.1:1052/movie.Mjpeg RTSP/1.0
+CSeq: 2
+User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+
+
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /home/neda/.local/share/vlc/lua/meta/fetcher
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/src/.libs/vlc/lua/meta/fetcher
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher/tvrage.lua
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher/tvrage.lua
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher/tvrage.luac
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher/tvrage.luac
+[00007f3800000958] core art finder debug: no meta fetcher modules matched
+[00000000009de418] core libvlc debug: searching art for rtsp://127.0.0.1:1052/movie.Mjpeg
+[00007f3800000958] core art finder debug: looking for art finder module matching "any": 2 candidates
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /home/neda/.local/share/vlc/lua/meta/art
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/src/.libs/vlc/lua/meta/art
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/00_musicbrainz.lua
+[0000000000aefbd8] qt4 interface debug: IM: Setting an input
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/00_musicbrainz.lua
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/00_musicbrainz.luac
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/00_musicbrainz.luac
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/01_googleimage.lua
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/01_googleimage.lua
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/01_googleimage.luac
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/01_googleimage.luac
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/02_frenchtv.lua
+Received 214 new bytes of response data.
+Received a complete OPTIONS response:
+RTSP/1.0 200 OK
+CSeq: 2
+Public: OPTIONS, DESCRIBE, PAUSE, PLAY, SETUP, SET_PARAMETER, TEARDOWN
+Server: GStreamer RTSP server
+Date: Mon, 7 Aug 2017 19:10:53 GMT
+Session: b630d4f2-e013-4958-a68a-88da60561b7b
+
+
+Sending request: DESCRIBE rtsp://127.0.0.1:1052/movie.Mjpeg RTSP/1.0
+CSeq: 3
+User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Accept: application/sdp
+
+
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/02_frenchtv.lua
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/02_frenchtv.luac
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/02_frenchtv.luac
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/03_lastfm.lua
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/03_lastfm.lua
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/03_lastfm.luac
+Received 464 new bytes of response data.
+Received a complete DESCRIBE response:
+RTSP/1.0 200 OK
+CSeq: 3
+Content-Type: application/sdp
+Content-Base: rtsp://127.0.0.1:1051/movie.Mjpeg
+Server: GStreamer RTSP server
+Date: Thu, 31 Aug 2017 10:19:29 GMT
+Content-Length: 267
+
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=b630d4f2-e013-4958-a68a-88da60561b7b
+i=rtsp-server
+e=NONE
+t=0 0
+a=tool:GStreamer
+a=type:broadcast
+a=control:*
+a=range:npt=0.000000-119.961667
+m=video 0 RTP/AVP 26
+c=IN IP4 127.0.0.1
+a=rtpmap:26 JPEG/90000
+a=control:stream=0
+[00007f37fc000e58] live555 demux debug: RTP subsession 'video/JPEG'
+Sending request: SETUP rtsp://127.0.0.1:1051/movie.Mjpeg/stream=0 RTSP/1.0
+CSeq: 4
+User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Transport: RTP/AVP;unicast;client_port=40568-40569
+
+
+[00007f3800000958] lua art finder debug: skipping script (unmatched scope) /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/03_lastfm.luac
+[00007f3800000958] core art finder debug: no art finder modules matched
+[00007f3800000958] core art finder debug: looking for meta fetcher module matching "any": 1 candidates
+Received 321 new bytes of response data.
+Received a complete SETUP response:
+RTSP/1.0 200 OK
+Transport: RTP/AVP;unicast;client_port=40568-40569;server_port=19000-19001;mode=play;source=127.0.0.1;ssrc=1337
+Server: GStreamer RTSP server
+CSeq: 4
+RTP-Info: url=rtsp://127.0.0.1:1052/movie.Mjpeg;seq=0;rtptime=0
+Date: Thu, 31 Aug 2017 10:19:29 GMT
+Session: b630d4f2-e013-4958-a68a-88da60561b7b
+
+
+[00007f38040009b8] core input debug: selecting program id=0
+[00007f37fc000e58] live555 demux debug: setup start: 0.000000 stop:119.961667
+Sending request: PLAY rtsp://127.0.0.1:1051/movie.Mjpeg RTSP/1.0
+CSeq: 5
+User-Agent: LibVLC/2.2.6 (LIVE555 Streaming Media v2014.01.13)
+Session: b630d4f2-e013-4958-a68a-88da60561b7b
+Range: npt=0.000-
+
+
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /home/neda/.local/share/vlc/lua/meta/fetcher
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/src/.libs/vlc/lua/meta/fetcher
+[00007f3800000958] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher
+[00007f3800000958] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/fetcher/tvrage.lua
+[00007f3800000958] core art finder debug: using meta fetcher module "lua"
+[00007f3800000958] core art finder debug: removing module "lua"
+[00000000009de418] core libvlc debug: searching art for rtsp://127.0.0.1:1052/movie.Mjpeg
+[00007f3800009648] core art finder debug: looking for art finder module matching "any": 2 candidates
+[00007f3800009648] lua art finder debug: Trying Lua scripts in /home/neda/.local/share/vlc/lua/meta/art
+[00007f3800009648] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/src/.libs/vlc/lua/meta/art
+[00007f3800009648] lua art finder debug: Trying Lua scripts in /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/00_musicbrainz.lua
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/00_musicbrainz.luac
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/01_googleimage.lua
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/01_googleimage.luac
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/02_frenchtv.lua
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/02_frenchtv.luac
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/03_lastfm.lua
+[00007f3800009648] lua art finder debug: Trying Lua playlist script /media/neda/MyDrive/VLC/vlc-2.2.6/share/lua/meta/art/03_lastfm.luac
+[00007f3800009648] core art finder debug: no art finder modules matched
+[00000000009de418] core libvlc debug: art not found for rtsp://127.0.0.1:1052/movie.Mjpeg
+Received 28 new bytes of response data.
+Received a complete PLAY response:
+RTSP/1.0 200 OK
+CSeq: 5
+
